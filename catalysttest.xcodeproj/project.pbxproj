@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		56C54E912CA6B6F00038CF01 /* catalyst glitch.mov in Resources */ = {isa = PBXBuildFile; fileRef = 56C54E902CA6B6F00038CF01 /* catalyst glitch.mov */; };
 		56D882C8271980F900E20C9C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56D882C7271980F900E20C9C /* AppDelegate.swift */; };
 		56D882CA271980F900E20C9C /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56D882C9271980F900E20C9C /* SceneDelegate.swift */; };
 		56D882CC271980F900E20C9C /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56D882CB271980F900E20C9C /* ViewController.swift */; };
@@ -17,6 +18,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		56C54E902CA6B6F00038CF01 /* catalyst glitch.mov */ = {isa = PBXFileReference; lastKnownFileType = video.quicktime; path = "catalyst glitch.mov"; sourceTree = "<group>"; };
 		56D882C4271980F900E20C9C /* catalysttest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = catalysttest.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		56D882C7271980F900E20C9C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		56D882C9271980F900E20C9C /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -68,6 +70,7 @@
 				56D882D0271980FD00E20C9C /* Assets.xcassets */,
 				56D882D2271980FD00E20C9C /* LaunchScreen.storyboard */,
 				56D882D5271980FD00E20C9C /* Info.plist */,
+				56C54E902CA6B6F00038CF01 /* catalyst glitch.mov */,
 			);
 			path = catalysttest;
 			sourceTree = "<group>";
@@ -133,6 +136,7 @@
 				56D882D4271980FD00E20C9C /* LaunchScreen.storyboard in Resources */,
 				56D882D1271980FD00E20C9C /* Assets.xcassets in Resources */,
 				56D882CF271980F900E20C9C /* Main.storyboard in Resources */,
+				56C54E912CA6B6F00038CF01 /* catalyst glitch.mov in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -311,7 +315,9 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = kse.catalysttest;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
 				SUPPORTS_MACCATALYST = YES;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = YES;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -341,7 +347,9 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = kse.catalysttest;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
 				SUPPORTS_MACCATALYST = YES;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = YES;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";

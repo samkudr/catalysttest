@@ -12,20 +12,21 @@ import CoreData
 
 class ViewController2: UICollectionViewController
 {
-	deinit { print("ViewController2.deinit") }
-	
-	
-	
-	override func viewDidLoad()
-	{
-		super.viewDidLoad()
-		
-	}
+	deinit { print("\(String(describing: Self.self)).deinit") }
 	
 	
 	
 	@IBAction func dismissAction(_ sender: Any?)
 	{
-		dismiss(animated: true)
+		DispatchQueue.main.asyncAfter(deadline: .now().advanced(by: .seconds(1))) { [weak self] in
+			self?.dismiss(animated: true)
+		}
 	}
+}
+
+
+
+class ViewController2_1: UIViewController
+{
+	deinit { print("\(String(describing: Self.self)).deinit") }
 }
