@@ -16,11 +16,17 @@ class ViewController2: UICollectionViewController
 	
 	
 	
+	override func viewDidLoad() {
+		super.viewDidLoad()
+		
+		collectionView.allowsMultipleSelection = true // this prevents view controller from being deallocated
+	}
+	
+	
+	
 	@IBAction func dismissAction(_ sender: Any?)
 	{
-		DispatchQueue.main.asyncAfter(deadline: .now().advanced(by: .seconds(1))) { [weak self] in
-			self?.dismiss(animated: true)
-		}
+		dismiss(animated: true)
 	}
 }
 
